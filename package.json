@@ -1,0 +1,44 @@
+{
+  "name": "projekt_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=development jest",
+    "start": "node ./main.js",
+    "start:dev": "cross-env NODE_ENV=development node ./main.js",
+    "start:pro": "cross-env NODE_ENV=production node ./main.js",
+    "start:watch": "nodemon cross-env NODE_ENV=development ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StaszekCh/projekt.git"
+  },
+  "author": "StaszekCH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StaszekCh/projekt/issues"
+  },
+  "homepage": "https://github.com/StaszekCh/projekt#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "jsonschema": "^1.4.0",
+    "mailgun-js": "^0.22.0",
+    "mjml": "^4.9.1",
+    "mongodb": "^3.6.6",
+    "rss-parser": "^3.12.0",
+    "winston": "^3.3.3",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-config-standard": "^14.1.1",
+     "eslint-config-google": "^0.14.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
